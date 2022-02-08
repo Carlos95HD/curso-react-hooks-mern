@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test de <GifGrid /> Snapshot de category 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn font-mono mb-5 mt-5 text-base text-2xl text-gray-800"
+  >
+    Libro
+  </h3>
+  <p
+    className="font-mono animate__animated animate__flash text-gray-800"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;

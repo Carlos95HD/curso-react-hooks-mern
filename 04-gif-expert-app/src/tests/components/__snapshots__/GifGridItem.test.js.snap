@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Debe mostrar el componente correctamente debe mostrar PrimeraApp correctamente 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="Imagen"
+    className="text-center"
+    src="https://localhost/img.jpg"
+  />
+  <p
+    className="font-sans text-gray-800"
+  >
+    Imagen
+  </p>
+</div>
+`;

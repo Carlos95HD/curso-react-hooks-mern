@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en <AddCategory /> Se debe mostrar correctamente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    className="mb-4 mt-2 shadow-lg p-2 font-mono rounded focus:outline-none"
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+</form>
+`;

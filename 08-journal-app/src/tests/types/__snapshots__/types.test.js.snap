@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en types.js should debe mostrar todos los types correctamente 1`] = `
+Object {
+  "login": "[Auth] Login",
+  "logout": "[Auth] Logout",
+  "notesActive": "[Notes] Set active note",
+  "notesAddNew": "[Notes] New note",
+  "notesDelete": "[Notes] Delete note",
+  "notesFileUrl": "[Notes] Updated image url",
+  "notesLoad": "[Notes] Load notes",
+  "notesLogoutCleaning": "[Notes] Logout Cleaning",
+  "notesUpdated": "[Notes] Updated note",
+  "uiFinishLoading": "[UI] Finish loading",
+  "uiRemoveError": "[UI] Remove Error",
+  "uiSetError": "[UI] Set Error",
+  "uiStartLoading": "[UI] Start loading",
+}
+`;
