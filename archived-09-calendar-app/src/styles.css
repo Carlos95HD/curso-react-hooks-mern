@@ -1,3 +1,18 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.calendar-screen{
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+.rbc-calendar {
+  height: 100%
+}
+
 /* Modal */
 .ReactModalPortal > div{
   opacity: 0;
@@ -39,22 +54,33 @@
   padding: 10px;
 }
 
-/* FABS */
 .fab {
+  z-index: 10;
+}
+
+/* Datepicker */
+
+.react-datetime-picker input:focus{
+  outline: none;
+}
+
+.react-datetime-picker__wrapper{
+  border: 0px solid gray !important;
+}
+
+/* FABS */
+.fab{
   border-radius: 100%;
   bottom: 25px;
   font-size: 30px;
-  padding: 25px;
+  padding:25px;
   position: fixed;
   right: 25px;
 }
 
-.fab-danger {
-  border-radius: 100%;
+.fab-danger{
   bottom: 25px;
-  font-size: 22px;
+  padding:10px;
   position: fixed;
   left: 25px;
-  width: 70px;
-  height: 70px;
 }

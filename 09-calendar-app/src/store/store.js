@@ -1,12 +1,13 @@
-import { createStore, compose, applyMiddleware } from "redux";
-import { rootReducer } from "../reducers/rootReducer";
-import thunk from "redux-thunk";
+import { configureStore } from '@reduxjs/toolkit';
+import { uiSlice, calendarSlice } from './';
 
-const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
 
-export const store = createStore(
-  rootReducer,
-  composeEnhancers(
-    applyMiddleware( thunk )
-  )
-)
+export const store = configureStore({
+    reducer: {
+        calendar: calendarSlice.reducer,
+        ui: uiSlice.reducer
+    },
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware({
+        serializableCheck: false
+    })
+})
